@@ -39,4 +39,7 @@ def delete_staff(staff_id: str):
         raise HTTPException(status_code=404, detail="Staff not found")
     del db[staff_id]
     return {"message": "Staff deleted"}
+<<<<<<< HEAD
+=======
 
+>>>>>>> a72bc8276c6131d6e4e3faf2d4dde4d6a43925ee
